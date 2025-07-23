@@ -207,8 +207,7 @@ public class KioskV3 {
                             double discounted = discount.applyDiscount(sum);
                             System.out.println();
                             System.out.println("주문이 완료되었습니다. 금액은 W" + discounted + " 입니다.");
-                            System.out.println();
-                            System.out.println("주문이 완료되었습니다. 금액은 W"+ sum + " 입니다.");
+
                             break;
                         }
                 }
